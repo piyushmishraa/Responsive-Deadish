@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Helvetica';
+}
+.wrapper{
+border: 3px solid #010124;
+width: 700px;
+height: 700px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% ,-50%);
+background-image: url('Wallpaper-Halloween-Cartoon-Nigh-Darkness-Blue-Bats15-1536x864.jpg');
+overflow: hidden;
+}
+
+#score{
+    font-size: 70px;
+    position:absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50% ,-50%);
+    color: rgb(182, 205, 224);
+    font-family:'creepster';
+
+}
+.your{
+    font-size: 40px;
+    position:absolute;
+    top: 80%;
+    left: 90%;
+    transform: translate(-50% ,-50%);
+    color: rgb(182, 205, 224);
+    font-family:'creepster';
+
+}
+#time{
+    font-size: 50px;
+    position:absolute;
+    top: 90%;
+    left: 20%;
+    transform: translate(-50% ,-50%);
+    color: rgb(182, 205, 224);
+    font-family:'creepster';
+}
+.heading{
+    font-size: 150px;
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    color: rgb(182, 205, 224);
+    font-family:'creepster'
+}
+
+button{
+    position:absolute;
+    top:90%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    color:bisque;
+    background-color: cadetblue;
+    padding: 10px 40px;
+    border-radius: 20%;
+    font-family:'creepster';
+    font-size: x-large;
+}
+
+.game{
+    
+    height: 300px;
+    width: 440px;
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+    z-index: 200;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+#hole1{
+    
+    flex:1 0 33.33%;
+    background-image: url('186745.png');
+    position: relative;
+    background-size: contain;
+    width: 100%;
+
+}
+#hole2{
+    
+    flex:1 0 33.33%;
+    background-image: url('186745.png');
+    position: relative;
+    background-size: contain;
+    width: 100%;
+
+}
+#hole3{
+    
+    flex:1 0 33.33%;
+    background-image: url('186745.png');
+    position: relative;
+    background-size: contain;
+    width: 100%;
+
+}
+#hole4{
+    
+    flex:1 0 33.33%;
+    background-image: url('186745.png');
+    position: relative;
+    background-size: contain;
+    width: 100%;
+
+}
+#hole5{
+    
+    flex:1 0 33.33%;
+    background-image: url('186745.png');
+    position: relative;
+    background-size: contain;
+    width: 100%;
+
+}
+#hole6{
+    
+    flex:1 0 33.33%;
+    background-image: url('186745.png');
+    position: relative;
+    background-size: contain;
+    width: 100%;
+}
+
+.overlay{
+    background-color: rgba(1, 1, 1, 0.7);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 205;
+    pointer-events: none;
+      
+}
+
+@media (max-width:990px){
+
+.wrapper{
+   text-align: center;
+   margin-left: 50px;
+   margin-right: 60px;
+   height: 750px;
+   width: 600px;
+   padding-left: 10px;
+
+
+}
+.game{
+    padding-left: 0px;
+    padding-right: 10px;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.heading{
+    font-size: 90px;
+    position: absolute;
+    left: 220px;
+}
+#time{
+    font-size: 30px;
+    position: absolute;
+    left: 150px;
+    top: 70%;
+}
+
+.your{
+    position: absolute;
+    left: 400px;
+    top: 70%;
+    font-size: 25px;
+}
+#score{
+    position: absolute;
+    left: 400px;
+    top: 80%;
+    font-size: 30px;
+}
+
+.gamecontainer{
+
+    height: 200px ;
+    width: 300px;
+}
+#startbutton{
+  
+position: absolute;
+top: 70%;
+
+}
+
+
+
+}
